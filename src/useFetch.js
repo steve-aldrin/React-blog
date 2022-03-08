@@ -1,6 +1,5 @@
 import { useState } from "react";
 import {useEffect} from "react";
-importblo
 
 const useFetch=(path) => {
     const  [Data,setData] = useState(null);
@@ -9,11 +8,12 @@ const useFetch=(path) => {
 
     const handleDelete=(id)=>
     {
-    const newblogs = blogs.filter(blog => blog.id !== id);
-    setBlogs(newblogs);
+    const newblogs = Data.filter(blog => Data.id !== id);
+    setData(newblogs);
 
     }
     useEffect(()=>{
+    const abortCont= new AbortController
     fetch(path)
     .then(res =>{
         if(!res.ok){
@@ -24,13 +24,22 @@ const useFetch=(path) => {
         setData(data);
         setisLoading(false);
         setError(null);
+        
     })
     .catch(err =>{
+        if(err.name =='AbortErroor'){
+            console.log("ABORT ERROR")
+        }
+       else{ 
         setisLoading(false);
         setError(err.message)
+       }
     })
+    return ()=>{
+        abortCont.abort()
+    }
     },[]);
-    return {data,isLoading,error}
+    return {Data,isLoading,error,handleDelete}
     }
 
-export default useFetch()
+export default useFetch;

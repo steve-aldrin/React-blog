@@ -2,7 +2,7 @@
 
 /* base styles */
  * {
-  margin: 0;
+  margin: 0 auto;
   font-family: "Quicksand";
   background-color: rgb(21, 25, 88);
   ;
@@ -83,4 +83,12 @@ button{
   color: #f1356d;
   text-align: center;
   margin-top: 10%;
+}
+.create{
+  color: #f1356d;
+  margin-left:500px;
+}
+.blog-preview a{
+  text-decoration:none;
+
 }
