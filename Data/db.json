@@ -1,0 +1,20 @@
+{
+    "blogs": [
+    {
+        "title":"My first Blog",
+        "body": "Weakness Disgusts me",
+        "author":"Madara uchia",
+        "id": 1
+    },
+    {
+        "title":"A day in life of a Hashira",
+        "body" : "slaying demons is what i do for a living",
+        "author":"ryoukgen",
+        "id":2
+    }   
+
+
+
+
+]
+}
