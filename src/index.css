@@ -93,7 +93,7 @@ button{
 
 }
 .custom-shape-divider-bottom-1647256045 {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
@@ -103,7 +103,7 @@ button{
 }
 
 .custom-shape-divider-bottom-1647256045 svg {
-  position: relative;
+  position: static;
   display: block;
   width: calc(100% + 1.3px);
   height: 100px;

@@ -1,27 +1,22 @@
 {
-    "blogs": [
+  "blogs": [
     {
-        "title":"My first Blog",
-        "body": "Weakness Disgusts me",
-        "author":"Madara uchia",
-        "id": 1
+      "title": "A day in life of a Hashira",
+      "body": "slaying demons is what i do for a living",
+      "author": "ryoukgen",
+      "id": 2
     },
     {
-        "title":"A day in life of a Hashira",
-        "body" : "slaying demons is what i do for a living",
-        "author":"ryoukgen",
-        "id":2
-    },  
+      "title": "um..idk what to say mika mika",
+      "body": "people ew",
+      "author": "shengai",
+      "id": 2
+    },
     {
-        "title":"um..idk what to say mika mika",
-        "body" : "people ew",
-        "author":"shengai",
-        "id":2
-    }   
-
-
-
-
-
-]
+      "title": "I am writing my first blog",
+      "body": "All i know is pain\n",
+      "author": "yoshi",
+      "id": 3
+    }
+  ]
 }
